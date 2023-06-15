@@ -57,10 +57,10 @@ static const int BUTTON_DRAIN_PIN = 27;
 
 static const int BLINK_INTERVAL = 500;  // Intervalo de piscagem para o LED onboard
 
-static const char* WIFI_SSID = "Murilo";
-static const char* WIFI_PWD = "12344321";
+static const char* WIFI_SSID = "YOUR_SSID";
+static const char* WIFI_PWD = "YOUR_WIFI_SECRET";
 
-static const char* MQTT_HOST_ADDRESS = "192.168.61.195";
+static const char* MQTT_HOST_ADDRESS = "IP_OR_DNS";
 static const int MQTT_HOST_PORT = 1883;
 static const char* MQTT_TOPIC_SUB_LEVEL = "p/container/level";
 static const char* MQTT_TOPIC_PUB_SET = "p/container/set";
