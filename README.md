@@ -121,3 +121,28 @@ Onde são publicados os comandos para as unidades de escoamento.
 }
 ```
 
+### Simulação dos Circuitos
+
+Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com) e 
+cada um dos módulos pode ser acessado nos links abaixo:
+
+* [Unidade de Monitoramento](https://wokwi.com/projects/366735052056497153)
+* [Unidade de Medição](https://wokwi.com/projects/364468040443813889)
+* [Unidade de Escoamento](https://wokwi.com/projects/364470406200202241)
+
+Ao executar a simulação de uma Unidade de Medição não esqueça de modificar a
+identificação da unidade em `SONAR_ID` para um número inteiro positivo entre
+`1` e `99` (inclusive). É importante que esse número não se repita entre as
+Unidades de Medição.
+
+Da mesma forma, ao executar a simulação de uma Unidade de Escoamento não
+esqueça de modificar a identificação da unidade em `PUMP_ID` para o mesmo
+número da Unidade de Medição a qual está relacionada. 
+
+Diferente das Unidades de Medição, é possível ter mais de uma Unidade de 
+Escoamento com o mesmo `PUMP_ID`.
+
+Acesse este link para mais detalhes sobre a 
+[Rede WiFi ESP32](https://docs.wokwi.com/pt-BR/guides/esp32-wifi) na 
+plataforma de simulação Wokwi.
+
