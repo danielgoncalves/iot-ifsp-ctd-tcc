@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.72501mm"
+   height="100.338mm"
+   viewBox="0 0 135.72501 100.338"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="diagram-unidade-monitoramento.svg"
+   inkscape:export-filename="diagram-unidade-monitoramento.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title1559">Diagrama da Unidade de Monitoramento</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="271.17544"
+     inkscape:cy="190.91883"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1286"
+       transform="translate(-39.637913,-29.458565)"
+       inkscape:export-filename="diagram-unidade-monitoramento.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:none;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect18105"
+         width="135.72505"
+         height="100.33832"
+         x="39.63789"
+         y="29.458405" />
+      <g
+         id="g21074"
+         transform="translate(84.312422,-83.267068)">
+        <path
+           id="path20444"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round"
+           d="m 20.807019,145.87983 h 8.338757 v -3.35048 h 27.452392 v 3.35048 h 8.40244 v 51.61469 h -17.17806 v 1.28771 H 38.05317 v -1.28771 H 20.807019 Z"
+           sodipodi:nodetypes="ccccccccccccc" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.57061px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';fill:#000000;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="42.903831"
+           y="161.80351"
+           id="text20450"><tspan
+             id="tspan20446"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57061px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.79375"
+             x="42.903831"
+             y="161.80351"
+             sodipodi:role="line">ESP</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57061px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.79375"
+             x="42.903831"
+             y="166.65668"
+             sodipodi:role="line"
+             id="tspan20940">WROOM-32</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57061px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.79375"
+             x="42.903831"
+             y="171.50986"
+             sodipodi:role="line"
+             id="tspan20448">DEVKIT V1</tspan></text>
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 31.003803,148.52009 v -4.14238 h 3.984506 v 4.14238 h 3.984506 v -3.9439 h 3.984503 v 3.9439 h 3.98451 v -4.12005 h 3.9845 v 9.52697 -9.52697 h 3.87753 v 9.52697"
+           id="path20452"
+           sodipodi:nodetypes="ccccccccccccccc" />
+        <g
+           id="g20484"
+           transform="translate(-46.311321,85.142639)">
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20454"
+             cx="109.09698"
+             cy="105.85414"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20456"
+             cx="109.09698"
+             cy="102.67912"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20458"
+             cx="109.09698"
+             cy="99.50412"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20460"
+             cx="109.09698"
+             cy="96.329117"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20462"
+             cx="109.09698"
+             cy="93.154114"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20464"
+             cx="109.09698"
+             cy="89.979111"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20466"
+             cx="109.09698"
+             cy="86.804108"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20468"
+             cx="109.09698"
+             cy="83.629105"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20470"
+             cx="109.09698"
+             cy="80.454102"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20472"
+             cx="109.09698"
+             cy="77.279099"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20474"
+             cx="109.09698"
+             cy="74.104095"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20476"
+             cx="109.09698"
+             cy="70.929092"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20478"
+             cx="109.09698"
+             cy="67.754089"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20480"
+             cx="109.09698"
+             cy="64.579086"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20482"
+             cx="109.09698"
+             cy="109.02914"
+             r="0.62744921" />
+        </g>
+        <g
+           id="g20516"
+           transform="translate(-46.387524,85.142639)">
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20486"
+             cx="69.409492"
+             cy="105.85414"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20488"
+             cx="69.409492"
+             cy="102.67912"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20490"
+             cx="69.409492"
+             cy="99.50412"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20492"
+             cx="69.409492"
+             cy="96.329117"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20494"
+             cx="69.409492"
+             cy="93.154114"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20496"
+             cx="69.409492"
+             cy="89.979111"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20498"
+             cx="69.409492"
+             cy="86.804108"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20500"
+             cx="69.409492"
+             cy="83.629105"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20502"
+             cx="69.409492"
+             cy="80.454102"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20504"
+             cx="69.409492"
+             cy="77.279099"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20506"
+             cx="69.409492"
+             cy="74.104095"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20508"
+             cx="69.409492"
+             cy="70.929092"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20510"
+             cx="69.409492"
+             cy="67.754089"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20512"
+             cx="69.409492"
+             cy="64.579086"
+             r="0.62744921" />
+          <circle
+             style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle20514"
+             cx="69.409492"
+             cy="109.02914"
+             r="0.62744921" />
+        </g>
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,149.74776 h 6.10159"
+           id="path20518"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,152.92276 h 6.10159"
+           id="path20520"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,156.09777 h 6.10159"
+           id="path20522"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,159.27277 h 6.10159"
+           id="path20524"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,162.44777 h 6.10159"
+           id="path20526"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,165.62277 h 6.10159"
+           id="path20528"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,168.79777 h 6.10159"
+           id="path20530"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,171.97278 h 6.10159"
+           id="path20532"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,175.14778 h 6.10159"
+           id="path20534"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,178.32278 h 6.10159"
+           id="path20536"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,181.49778 h 6.10159"
+           id="path20538"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,184.67278 h 6.10159"
+           id="path20540"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,187.8478 h 6.10159"
+           id="path20542"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,191.02282 h 6.10159"
+           id="path20544"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 62.900178,194.19784 h 6.10159"
+           id="path20546"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.656876"
+           y="194.77824"
+           id="text20550"><tspan
+             sodipodi:role="line"
+             id="tspan20548"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.656876"
+             y="194.77824">3V3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.663582"
+           y="191.60323"
+           id="text20554"><tspan
+             sodipodi:role="line"
+             id="tspan20552"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.663582"
+             y="191.60323">GND</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.656876"
+           y="188.42825"
+           id="text20558"><tspan
+             sodipodi:role="line"
+             id="tspan20556"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.656876"
+             y="188.42825">D15</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.648491"
+           y="185.25325"
+           id="text20562"><tspan
+             sodipodi:role="line"
+             id="tspan20560"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.648491"
+             y="185.25325">D2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.594833"
+           y="182.07826"
+           id="text20566"><tspan
+             sodipodi:role="line"
+             id="tspan20564"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.594833"
+             y="182.07826">D4</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.648491"
+           y="178.90326"
+           id="text20570"><tspan
+             sodipodi:role="line"
+             id="tspan20568"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.648491"
+             y="178.90326">RX2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.648491"
+           y="175.72826"
+           id="text20574"><tspan
+             sodipodi:role="line"
+             id="tspan20572"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.648491"
+             y="175.72826">TX2</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.656876"
+           y="172.55325"
+           id="text20578"><tspan
+             sodipodi:role="line"
+             id="tspan20576"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.656876"
+             y="172.55325">D5</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.645142"
+           y="169.37825"
+           id="text20582"><tspan
+             sodipodi:role="line"
+             id="tspan20580"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.645142"
+             y="169.37825">D18</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.648491"
+           y="166.20325"
+           id="text20586"><tspan
+             sodipodi:role="line"
+             id="tspan20584"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.648491"
+             y="166.20325">D19</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.925163"
+           y="163.02824"
+           id="text20590"><tspan
+             sodipodi:role="line"
+             id="tspan20588"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.925163"
+             y="163.02824">D21</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.643463"
+           y="159.85324"
+           id="text20594"><tspan
+             sodipodi:role="line"
+             id="tspan20592"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.643463"
+             y="159.85324">RX0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.643463"
+           y="156.67824"
+           id="text20598"><tspan
+             sodipodi:role="line"
+             id="tspan20596"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.643463"
+             y="156.67824">TX0</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.648491"
+           y="153.50323"
+           id="text20602"><tspan
+             sodipodi:role="line"
+             id="tspan20600"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.648491"
+             y="153.50323">D22</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="60.656876"
+           y="150.32823"
+           id="text20606"><tspan
+             sodipodi:role="line"
+             id="tspan20604"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="60.656876"
+             y="150.32823">D23</tspan></text>
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,149.74776 h 6.101587"
+           id="path20608"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,152.92276 h 6.101587"
+           id="path20610"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,156.09777 h 6.101587"
+           id="path20612"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,159.27277 h 6.101587"
+           id="path20614"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,162.44777 h 6.101587"
+           id="path20616"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,165.62277 h 6.101587"
+           id="path20618"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,168.79777 h 6.101587"
+           id="path20620"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,171.97278 h 6.101587"
+           id="path20622"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,175.14778 h 6.101587"
+           id="path20624"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,178.32278 h 6.101587"
+           id="path20626"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,181.49778 h 6.101587"
+           id="path20628"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,184.67278 h 6.101587"
+           id="path20630"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,187.8478 h 6.101587"
+           id="path20632"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,191.02282 h 6.101587"
+           id="path20634"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 16.86267,194.19784 h 6.101587"
+           id="path20636"
+           sodipodi:nodetypes="cc" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.227859"
+           y="194.77824"
+           id="text20640"><tspan
+             sodipodi:role="line"
+             id="tspan20638"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.227859"
+             y="194.77824">VIN</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.125576"
+           y="191.60323"
+           id="text20644"><tspan
+             sodipodi:role="line"
+             id="tspan20642"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.125576"
+             y="191.60323">GND</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="188.42825"
+           id="text20648"><tspan
+             sodipodi:role="line"
+             id="tspan20646"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="188.42825">D13</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="185.25325"
+           id="text20652"><tspan
+             sodipodi:role="line"
+             id="tspan20650"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="185.25325">D12</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="182.07826"
+           id="text20656"><tspan
+             sodipodi:role="line"
+             id="tspan20654"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="182.07826">D14</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="178.90326"
+           id="text20660"><tspan
+             sodipodi:role="line"
+             id="tspan20658"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="178.90326">D27</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="175.72826"
+           id="text20664"><tspan
+             sodipodi:role="line"
+             id="tspan20662"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="175.72826">D26</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="172.55325"
+           id="text20668"><tspan
+             sodipodi:role="line"
+             id="tspan20666"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="172.55325">D25</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="169.37825"
+           id="text20672"><tspan
+             sodipodi:role="line"
+             id="tspan20670"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="169.37825">D33</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="166.20325"
+           id="text20676"><tspan
+             sodipodi:role="line"
+             id="tspan20674"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="166.20325">D32</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="163.02824"
+           id="text20680"><tspan
+             sodipodi:role="line"
+             id="tspan20678"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="163.02824">D35</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="159.85324"
+           id="text20684"><tspan
+             sodipodi:role="line"
+             id="tspan20682"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="159.85324">D34</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.227859"
+           y="156.67824"
+           id="text20688"><tspan
+             sodipodi:role="line"
+             id="tspan20686"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.227859"
+             y="156.67824">VN</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.227859"
+           y="153.50323"
+           id="text20692"><tspan
+             sodipodi:role="line"
+             id="tspan20690"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.227859"
+             y="153.50323">VP</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="25.065212"
+           y="150.32823"
+           id="text20696"><tspan
+             sodipodi:role="line"
+             id="tspan20694"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="25.065212"
+             y="150.32823">EN</tspan></text>
+        <path
+           style="fill:none;stroke:#b3b3b3;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 39.592951,197.23279 v -5.93081 h 6.621727 v 6.09428"
+           id="path20698" />
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="42.873634"
+           y="193.88342"
+           id="text20702"><tspan
+             sodipodi:role="line"
+             id="tspan20700"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="42.873634"
+             y="193.88342">MICRO</tspan><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="42.873634"
+             y="196.17165"
+             id="tspan20836">USB</tspan></text>
+      </g>
+      <g
+         id="g5795"
+         transform="translate(40.446167,3.896631)">
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,41.286443 H 39.530688"
+           id="path5773"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5775"
+           cx="29.015911"
+           cy="41.286442"
+           r="0.43695545" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5777"
+           cx="39.599247"
+           cy="41.286442"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.26371,41.286443 v 1.893869"
+           id="path5779" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5781"
+           cx="34.26371"
+           cy="43.227737"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,48.519406 H 39.530688"
+           id="path5783"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5785"
+           cx="29.015911"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5787"
+           cx="39.599247"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 34.26371,48.519406 V 46.625537"
+           id="path5789" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5791"
+           cx="34.26371"
+           cy="-46.57811"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.273339,46.573164 2.784446,-2.784445"
+           id="path5793" />
+      </g>
+      <path
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 65.268446,52.443484 h -3.036028 l -1.276215,1.949885 -0.698212,-4.396478 -1.370876,4.396478 -0.922665,-4.396478 -1.192159,4.396478 -0.889038,-4.396478 -1.026225,2.446593 h -2.773392"
+         id="path5797"
+         sodipodi:nodetypes="cccccccccc" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle5799"
+         cx="52.017387"
+         cy="52.413399"
+         r="0.43695545" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle5801"
+         cx="65.246552"
+         cy="52.413399"
+         r="0.43695545" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="58.608971"
+         y="57.290497"
+         id="text5807"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="58.608971"
+           y="57.290497"
+           id="tspan5805">10k</tspan></text>
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 65.271861,52.44319 h 4.197461"
+         id="path5811" />
+      <g
+         id="g5910"
+         transform="translate(6.48288,45.329256)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 37.083468,78.504001 h 7.48548"
+           id="path5900" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 38.748797,79.562335 h 4.154821"
+           id="path5902"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 39.940494,80.620669 h 1.771428"
+           id="path5904"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 40.826208,74.685495 v 3.818506"
+           id="path5906" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle5908"
+           cx="40.826206"
+           cy="74.655602"
+           r="0.43695545" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="68.28643"
+         y="43.335361"
+         id="text5914"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="68.28643"
+           y="43.335361"
+           id="tspan5912">VCC</tspan></text>
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 51.98971,52.457788 h -4.711534 l 0.02584,15.85802"
+         id="path6326"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 69.447021,45.206736 h -2.191368 l 0.0079,15.884212"
+         id="path6328"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 80.058037,52.45125 H 95.75949 v 36.296383 h 5.60186"
+         id="path6486"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="79.992805"
+         y="55.496712"
+         id="text6490"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="79.992805"
+           y="55.496712"
+           id="tspan6488">OUTPUT</tspan></text>
+      <g
+         id="g14299"
+         transform="translate(17.920511,-15.483002)">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect8699"
+           width="46.133255"
+           height="15.092794"
+           x="84.914268"
+           y="48.565739" />
+        <g
+           id="g14169"
+           transform="translate(-6.879167)">
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="rect8701"
+             width="34.888409"
+             height="10.158992"
+             x="93.8423"
+             y="51.032642" />
+          <text
+             xml:space="preserve"
+             style="font-size:3.57061px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';fill:#000000;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             x="111.15774"
+             y="57.373318"
+             id="text8705"><tspan
+               sodipodi:role="line"
+               id="tspan8703"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, @wght=700';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 700;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.79375"
+               x="111.15774"
+               y="57.373318">LCD 16x2 I2C</tspan></text>
+        </g>
+        <g
+           id="g14269"
+           transform="translate(8.0816083,14.997397)">
+          <g
+             id="g14235"
+             transform="matrix(-1,0,0,1,235.3592,0)">
+            <g
+               id="g14209">
+              <circle
+                 style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 id="circle8737"
+                 cx="36.88142"
+                 cy="114.47464"
+                 r="0.62744921"
+                 transform="matrix(0,1,1,0,0,0)" />
+              <path
+                 style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 d="m 114.45889,36.875032 h -4.78512"
+                 id="path8739"
+                 sodipodi:nodetypes="cc" />
+            </g>
+            <g
+               id="g14213">
+              <circle
+                 style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 id="circle8773"
+                 cx="39.703632"
+                 cy="114.47464"
+                 r="0.62744921"
+                 transform="matrix(0,1,1,0,0,0)" />
+              <path
+                 style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 d="m 114.45889,39.697258 h -4.78512"
+                 id="path8775"
+                 sodipodi:nodetypes="cc" />
+            </g>
+            <g
+               id="g14217">
+              <circle
+                 style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 id="circle8781"
+                 cx="42.525845"
+                 cy="114.47464"
+                 r="0.62744921"
+                 transform="matrix(0,1,1,0,0,0)" />
+              <path
+                 style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 d="m 114.45889,42.5195 h -4.78512"
+                 id="path8783"
+                 sodipodi:nodetypes="cc" />
+            </g>
+            <g
+               id="g14221">
+              <circle
+                 style="fill:none;stroke:#000000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 id="circle8789"
+                 cx="45.348057"
+                 cy="114.47464"
+                 r="0.62744921"
+                 transform="matrix(0,1,1,0,0,0)" />
+              <path
+                 style="fill:none;stroke:#d40000;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+                 d="m 114.45889,45.341749 h -4.78512"
+                 id="path8791"
+                 sodipodi:nodetypes="cc" />
+            </g>
+          </g>
+          <g
+             id="g14245"
+             transform="translate(1.5875)">
+            <text
+               xml:space="preserve"
+               style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+               x="117.57381"
+               y="37.480045"
+               id="text8743"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+                 x="117.57381"
+                 y="37.480045"
+                 id="tspan8741">GND</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+               x="114.44829"
+               y="40.302258"
+               id="text8779"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;stroke:none;stroke-width:0.377274"
+                 x="114.44829"
+                 y="40.302258"
+                 id="tspan8777">VCC</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+               x="117.4732"
+               y="43.124477"
+               id="text8787"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+                 x="117.4732"
+                 y="43.124477"
+                 id="tspan8785">SDA</tspan></text>
+            <text
+               xml:space="preserve"
+               style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+               x="117.51344"
+               y="45.946674"
+               id="text8795"><tspan
+                 sodipodi:role="line"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274"
+                 x="117.51344"
+                 y="45.946674"
+                 id="tspan8793">SCL</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g
+         id="g14950"
+         transform="translate(19.827109,-5.981936)">
+        <text
+           xml:space="preserve"
+           style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           x="47.596867"
+           y="131.29454"
+           id="text11615"><tspan
+             sodipodi:role="line"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+             x="47.596867"
+             y="131.29454"
+             id="tspan11613">VCC +5V</tspan></text>
+        <g
+           id="g14942"
+           transform="matrix(1,0,0,-1,0,254.43865)">
+          <path
+             style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             d="m 44.693655,125.44441 h 5.480947"
+             id="path11246" />
+          <path
+             style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             d="m 47.434129,125.44441 v 3.06084"
+             id="path11611" />
+          <circle
+             style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+             id="circle11617"
+             cx="47.434132"
+             cy="128.55728"
+             r="0.43695545" />
+        </g>
+      </g>
+      <g
+         id="g14856"
+         transform="translate(40.446167,19.771632)">
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,41.286443 H 39.530688"
+           id="path14834"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14836"
+           cx="29.015911"
+           cy="41.286442"
+           r="0.43695545" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14838"
+           cx="39.599247"
+           cy="41.286442"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.26371,41.286443 v 1.893869"
+           id="path14840" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14842"
+           cx="34.26371"
+           cy="43.227737"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,48.519406 H 39.530688"
+           id="path14844"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14846"
+           cx="29.015911"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14848"
+           cx="39.599247"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 34.26371,48.519406 V 46.625537"
+           id="path14850" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14852"
+           cx="34.26371"
+           cy="-46.57811"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.273339,46.573164 2.784446,-2.784445"
+           id="path14854" />
+      </g>
+      <path
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 65.268446,68.318485 H 62.232418 L 60.956203,70.26837 60.257991,65.871892 58.887115,70.26837 57.96445,65.871892 56.772291,70.26837 55.883253,65.871892 54.857028,68.318485 H 52.083636"
+         id="path14858"
+         sodipodi:nodetypes="cccccccccc" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle14860"
+         cx="52.017387"
+         cy="68.288391"
+         r="0.43695545" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle14862"
+         cx="65.246552"
+         cy="68.288391"
+         r="0.43695545" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="58.608971"
+         y="73.165489"
+         id="text14866"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="58.608971"
+           y="73.165489"
+           id="tspan14864">10k</tspan></text>
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 65.271861,68.318191 h 4.197461"
+         id="path14868" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 69.447021,61.081737 h -2.191368 l 0.0079,15.784333"
+         id="path14876"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 80.058037,68.326251 H 92.230595 V 91.852633 H 101.4956"
+         id="path14878"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="79.992805"
+         y="71.371704"
+         id="text14882"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="79.992805"
+           y="71.371704"
+           id="tspan14880">OUTPUT</tspan></text>
+      <g
+         id="g14906"
+         transform="translate(40.446167,35.646633)">
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,41.286443 H 39.530688"
+           id="path14884"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14886"
+           cx="29.015911"
+           cy="41.286442"
+           r="0.43695545" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14888"
+           cx="39.599247"
+           cy="41.286442"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.26371,41.286443 v 1.893869"
+           id="path14890" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14892"
+           cx="34.26371"
+           cy="43.227737"
+           r="0.43695545" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 28.996732,48.519406 H 39.530688"
+           id="path14894"
+           sodipodi:nodetypes="cc" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14896"
+           cx="29.015911"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14898"
+           cx="39.599247"
+           cy="-48.519405"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="M 34.26371,48.519406 V 46.625537"
+           id="path14900" />
+        <circle
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="circle14902"
+           cx="34.26371"
+           cy="-46.57811"
+           r="0.43695545"
+           transform="scale(1,-1)" />
+        <path
+           style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           d="m 34.273339,46.573164 2.784446,-2.784445"
+           id="path14904" />
+      </g>
+      <path
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 65.268446,84.193483 h -3.036028 l -1.276215,1.94989 -0.698212,-4.39648 -1.370876,4.39648 -0.922665,-4.39648 -1.192159,4.39648 -0.889038,-4.39648 -1.026225,2.44659 h -2.773392"
+         id="path14908"
+         sodipodi:nodetypes="cccccccccc" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle14910"
+         cx="52.017387"
+         cy="84.163383"
+         r="0.43695545" />
+      <circle
+         style="fill:none;stroke:#d40000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle14912"
+         cx="65.246552"
+         cy="84.163383"
+         r="0.43695545" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="58.608971"
+         y="89.040474"
+         id="text14916"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="58.608971"
+           y="89.040474"
+           id="tspan14914">10k</tspan></text>
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 65.271861,84.193193 h 4.197461"
+         id="path14918" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 69.447021,76.956738 h -2.191368 l 0.0079,42.896472"
+         id="path14926"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 80.058037,84.201253 h 8.929468 v 10.83891 h 12.604305"
+         id="path14928"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:end;text-anchor:end;fill:#000000;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="79.992805"
+         y="87.246689"
+         id="text14932"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377274"
+           x="79.992805"
+           y="87.246689"
+           id="tspan14930">OUTPUT</tspan></text>
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 51.98971,68.332789 h -4.711534 l 0.02584,15.701414"
+         id="path15012"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 51.98971,84.207793 h -4.711534 l 0.02584,35.651097"
+         id="path15014"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 101.46585,110.88513 H 67.321646"
+         id="path15018"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 101.42345,107.78324 H 47.340859"
+         id="path16178" />
+      <circle
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle17006"
+         cx="67.25103"
+         cy="-61.063263"
+         r="0.43695545"
+         transform="scale(1,-1)" />
+      <circle
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle17008"
+         cx="67.25103"
+         cy="-76.938255"
+         r="0.43695545"
+         transform="scale(1,-1)" />
+      <circle
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle17010"
+         cx="67.25103"
+         cy="-110.8699"
+         r="0.43695545"
+         transform="scale(1,-1)" />
+      <circle
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle17012"
+         cx="47.337627"
+         cy="-107.7599"
+         r="0.43695545"
+         transform="scale(1,-1)" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 151.45715,42.025857 h 12.34839 v 40.373939 h -10.58966"
+         id="path17768"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 151.45715,44.906862 h 8.38799 v 24.762087 h -6.61956"
+         id="path17770"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 151.45715,36.357172 H 167.4881 V 107.81231 H 153.18788"
+         id="path17772"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="m 151.45715,39.159222 h 19.97733 V 117.38349 H 67.155059"
+         id="path17774"
+         sodipodi:nodetypes="cccc" />
+      <circle
+         style="fill:none;stroke:#2a7fff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="circle17776"
+         cx="67.25103"
+         cy="-117.35218"
+         r="0.43695545"
+         transform="scale(1,-1)" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.57061px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';fill:#000000;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="139.27849"
+         y="124.5033"
+         id="text18047"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.11667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#999999;stroke:none;stroke-width:0.79375"
+           x="139.27849"
+           y="124.5033"
+           id="tspan18049">UNIDADE DE MONITORAMENTO</tspan></text>
+      <rect
+         style="opacity:0.548984;fill:none;stroke:#808080;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.264583, 0.79375;stroke-dashoffset:0"
+         id="rect18425"
+         width="37.715538"
+         height="50.151459"
+         x="49.413334"
+         y="41.059021"
+         rx="1"
+         ry="1" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.69713px;font-family:'Khmer OS System';-inkscape-font-specification:'Khmer OS System, Normal';text-align:start;text-anchor:start;fill:#999999;stroke:none;stroke-width:0.377274;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         x="50.935753"
+         y="43.854973"
+         id="text19006"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#999999;stroke:none;stroke-width:0.377274"
+           x="50.935753"
+           y="43.854973"
+           id="tspan19004">PULL DOWN</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.67678px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#999999;stroke:none;stroke-width:0.377274"
+           x="50.935753"
+           y="46.143196"
+           id="tspan19212">PUSH BUTTONS</tspan></text>
+    </g>
+  </g>
+  <metadata
+     id="metadata1557">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:title>Diagrama da Unidade de Monitoramento</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Daniel Gonçalves</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>Daniel Gonçalves</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Murilo dos Reis Tavares</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Diagrama esquemático da Unidade de Monitoramento</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
