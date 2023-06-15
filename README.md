@@ -27,14 +27,14 @@ segundo tópico.
 * 1 x Push Button (green cap) para parametrizar o nível do contêiner;
 * 1 x Push Button (red cap) para comandar o acionamento arbitrário da bomba de escoamento.
 
-![Diagrama da Unidade de Monitoramento](/Diagramas/diagrama-unidade-monitoramento.png)
+![Diagrama da Unidade de Monitoramento](/Imagens/diagrama-unidade-monitoramento.png)
 
 ### Unidade de Medição
 
 * 1 x ESP32 WROOM Devkit V1;
 * 1 x Sensor HC-SR04 ultrassônico para medir o nível do fluído.
 
-![Diagrama da Unidade de Medição](/Diagramas/diagrama-unidade-medicao.png)
+![Diagrama da Unidade de Medição](/Imagens/diagrama-unidade-medicao.png)
 
 ### Unidade de Escoamento
 
@@ -43,7 +43,7 @@ segundo tópico.
 * 1 x TIP41C NPN para acionar a bomba d'água;
 * 1 x LED (yellow) indicação de acionamento da bomba de escoamento.
 
-![Diagrama da Unidade de Escoamento](/Diagramas/diagrama-unidade-escoamento.png)
+![Diagrama da Unidade de Escoamento](/Imagens/diagrama-unidade-escoamento.png)
 
 Cada contêiner a ser monitorado deve possuir uma unidade de medição e uma
 unidade de escoamento.
