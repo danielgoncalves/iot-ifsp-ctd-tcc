@@ -26,6 +26,9 @@
 #include <PubSubClient.h>
 #include <ArduinoJson.h>
 
+// Para evitar o acionamento da bomba em plataformas de simulação
+#define SIMULATED_ENVIRONMENT
+
 // Id da bomba deve ser o mesmo do respectivo contêiner
 // (eg. SONAR_ID da Unidade de Medição)
 static const int PUMP_ID = 1;
@@ -50,11 +53,8 @@ Neotimer onboardLEDTimer = Neotimer();
 
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(PUMP_PIN, OUTPUT);
-  pinMode(PUMPING_LED_PIN, OUTPUT);
-
   setupSerial();
+  setupPins();
   setupWiFi();
   setupMqttClient();
   setupTimers();
@@ -69,6 +69,15 @@ void loop() {
 
 static void setupSerial() {
   Serial.begin(115200);
+}
+
+
+static void setupPins() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(PUMPING_LED_PIN, OUTPUT);
+  #ifndef SIMULATED_ENVIRONMENT
+    pinMode(PUMP_PIN, OUTPUT);
+  #endif
 }
 
 
@@ -151,14 +160,18 @@ static void doPump(unsigned int duration) {
   Serial.print(duration);
   Serial.print("ms): ");
 
-  digitalWrite(PUMP_PIN, HIGH);
+  #ifndef SIMULATED_ENVIRONMENT
+    digitalWrite(PUMP_PIN, HIGH);
+  #endif
   digitalWrite(PUMPING_LED_PIN, HIGH);
 
   while (millis() < t1) {
     Serial.print(".");
   }
 
-  digitalWrite(PUMP_PIN, LOW);
+  #ifndef SIMULATED_ENVIRONMENT
+    digitalWrite(PUMP_PIN, LOW);
+  #endif
   digitalWrite(PUMPING_LED_PIN, LOW);
 
   Serial.println(" done");
