@@ -121,6 +121,31 @@ Onde são publicados os comandos para as unidades de escoamento.
 }
 ```
 
+### Infraestrutura para Monitoramento e Logging
+
+Este projeto conta com uma [infraestrutura em nuvem](https://www.redhat.com/pt-br/topics/cloud-computing/what-is-cloud-infrastructure)
+que possibilita o monitoramento e controle remoto dos contêineres mensurados,
+via internet, através de um navegador em um PC ou _smartphone_. 
+Os serviços disponíveis através de uma instância [EC2](https://aws.amazon.com/pt/ec2/) 
+do tipo [t2.micro](https://aws.amazon.com/pt/ec2/instance-types/t2/) onde 
+estão virtualizados os serviços através de [containers Docker](https://docs.docker.com/get-started/what-is-a-container/).
+Os serviços instalados são:
+
+* Servidor [PostgreSQL](https://hub.docker.com/_/postgres) v15.3
+* Servidor [Eclipse Mosquitto](https://hub.docker.com/_/eclipse-mosquitto) v2.0.15
+* Servidor [Node-RED](https://hub.docker.com/r/nodered/node-red/) v3.0.2
+
+Através do Node-RED é possível monitorar a comunicação entre os componentes
+IoT que compõem o projeto, registrar as leituras em bancos de dados SQL e
+fornecer um [painel de monitoramento e comando](http://ec2-18-188-46-54.us-east-2.compute.amazonaws.com:1880/ui/) (_dashboard_).
+
+![Captura das telas do dashboard](/Imagens/dashboard-mobile.png)
+
+O fluxo (_flow_) Node-RED implementado pode ser obtido [neste gist](https://gist.github.com/danielgoncalves/37da72b88d048bcf2101a32f4e1452c7), 
+cuja representação na interface da plataforma se parece com a captura de tela:
+
+![Captura de tela do flow do projeto](/Imagens/nodered-main-flow.png)
+
 ### Simulações dos Circuitos
 
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com) e 
