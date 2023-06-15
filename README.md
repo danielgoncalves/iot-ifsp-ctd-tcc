@@ -121,7 +121,7 @@ Onde são publicados os comandos para as unidades de escoamento.
 }
 ```
 
-### Simulação dos Circuitos
+### Simulações dos Circuitos
 
 Os circuitos estão simulados na plataforma [Wokwi](https://wokwi.com) e 
 cada um dos módulos pode ser acessado nos links abaixo:
@@ -141,6 +141,8 @@ número da Unidade de Medição a qual está relacionada.
 
 Diferente das Unidades de Medição, é possível ter mais de uma Unidade de 
 Escoamento com o mesmo `PUMP_ID`.
+
+![Simulações dos circuitos em execução](/Imagens/wokwi-exec-simulacoes.png)
 
 Acesse este link para mais detalhes sobre a 
 [Rede WiFi ESP32](https://docs.wokwi.com/pt-BR/guides/esp32-wifi) na 
