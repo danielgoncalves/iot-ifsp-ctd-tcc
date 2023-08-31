@@ -1,7 +1,8 @@
-# IoT IFSP CTD
+# TCC IoT
 
-Projeto do trabalho de conclusão da disciplina de Plataformas de Prototipação
-para IoT (E2PPT) IFSP CTD.
+Projeto de TCC para o curso de pós-graduação lato sensu de Especialização em
+Internet das Coisas do Instituto Federal de São Paulo, Campus Catanduva,
+iniciado no segundo semestre de 2022.
 
 ## Visão Geral
 
