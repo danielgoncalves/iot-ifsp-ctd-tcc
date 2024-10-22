@@ -163,14 +163,16 @@ $ vim /nodered/data/settings.js
 * Descomente toda a parte:
 
 ```json
-adminAuth: {
-    type: "credentials",
+{
+    adminAuth: {
+        type: "credentials",
         users: [{
             username: "admin",
             password: "$2b$08$74SpEgfO1f4QEJhs8Wv...nPl5F6f6EJK",
             permissions: "*"
         }]
     }
+}
 ```
 
 * Para criar um hash de uma senha:
