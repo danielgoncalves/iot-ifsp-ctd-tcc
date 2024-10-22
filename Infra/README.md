@@ -162,8 +162,10 @@ $ vim /nodered/data/settings.js
 
 * Descomente toda a parte:
 
-```json
+```javascript
 {
+    // ...
+
     adminAuth: {
         type: "credentials",
         users: [{
