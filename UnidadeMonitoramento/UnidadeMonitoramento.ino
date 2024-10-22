@@ -29,6 +29,10 @@
  *  - PubSubClient         2.8.0    by Nick O'Leary
  *  - LiquidCrystal I2C    1.1.2    by Marco Schwartz
  *  - ArduinoJson          6.21.2   by Benoit Blanchon  https://arduinojson.org/
+ *
+ *  Placa selecionada no IDE Arduino:
+ *
+ *  - DOIT ESP32 DEVKIT V1
  *  
  */
 #include <neotimer.h>

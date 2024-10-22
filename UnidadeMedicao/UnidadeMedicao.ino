@@ -21,6 +21,10 @@
  *  - WiFi (Built-In)      1.2.7    by Arduino
  *  - PubSubClient         2.8.0    by Nick O'Leary
  *  - ArduinoJson          6.21.2   by Benoit Blanchon  https://arduinojson.org/
+ *
+ *  Placa selecionada no IDE Arduino:
+ *
+ *  - DOIT ESP32 DEVKIT V1
  *  
  */
 #include <neotimer.h>
