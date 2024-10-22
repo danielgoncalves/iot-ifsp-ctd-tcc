@@ -1,0 +1,1274 @@
+[
+    {
+        "id": "a5f5fa2877f55e9a",
+        "type": "tab",
+        "label": "Main Flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "da453f6f04281023",
+        "type": "mqtt in",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "topic": "p/container/level",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "0a63f842855fd437",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 440,
+        "wires": [
+            [
+                "9b253848e101da78"
+            ]
+        ]
+    },
+    {
+        "id": "d6b12d0df6eeab65",
+        "type": "inject",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 110,
+        "y": 60,
+        "wires": [
+            [
+                "271fa56fbcfc5394",
+                "4b1524aa9b49b8f1"
+            ]
+        ]
+    },
+    {
+        "id": "7d3803cc62a81852",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Pumper",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "03ba3e6d474f52bf",
+        "type": "mqtt out",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "topic": "p/pump",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0a63f842855fd437",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "44527b447e614c91",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Pumper",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "a43fa6ada4db85b7",
+        "type": "mqtt out",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "topic": "p/pump",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0a63f842855fd437",
+        "x": 820,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "eb9a38e727514405",
+        "type": "comment",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Container #1",
+        "info": "Controles do Contêiner #1",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e26cf719e69b2c45",
+        "type": "comment",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Container #2",
+        "info": "Controles do Contêiner #2",
+        "x": 570,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "4cb09d7b47626095",
+        "type": "inject",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Trigger Query Levels",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 160,
+        "y": 1080,
+        "wires": [
+            [
+                "c2eec174cfc80476"
+            ]
+        ]
+    },
+    {
+        "id": "45a4eee8d9cbed04",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Levels Data for Table",
+        "func": "let data = [];\n\nmsg.payload.forEach(row => {\n    data.push({\n        occurrence: row.occurrence,\n        origin: row.origin,\n        level_cm: row.level_cm,\n    })\n});\n\nmsg.payload = data;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1140,
+        "wires": [
+            [
+                "382865f14d52fd42"
+            ]
+        ]
+    },
+    {
+        "id": "09992bac03b7fba9",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Limit Setter",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "bfae9766dfedb1ea",
+        "type": "comment",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Display Log Data",
+        "info": "",
+        "x": 140,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "ff67ce55ce27d4fe",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Build Payload",
+        "func": "msg.payload = {\n    origin: {\n        'from': 'dashboard',\n        'id': 1\n    },\n    destination: {\n        'to': 'pumpUnit',\n        'id': 2\n    },\n    level: {\n        ms: 0,\n        cm: flow.get(\"newLevelC2\")\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 920,
+        "wires": [
+            [
+                "e859017b38c325be",
+                "5af62e7843be6c95"
+            ]
+        ]
+    },
+    {
+        "id": "e859017b38c325be",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Payload Builder",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "5af62e7843be6c95",
+        "type": "mqtt out",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "topic": "p/container/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0a63f842855fd437",
+        "x": 1060,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "addf13630a82b6b4",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Set New Level",
+        "func": "flow.set(\"newLevelC2\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 880,
+        "wires": [
+            [
+                "09992bac03b7fba9"
+            ]
+        ]
+    },
+    {
+        "id": "7e7609c914a280f3",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Set New Level",
+        "func": "flow.set(\"newLevelC1\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 460,
+        "wires": [
+            [
+                "2064d347ed42f747"
+            ]
+        ]
+    },
+    {
+        "id": "6de6150cd4556d3b",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Build Payload",
+        "func": "msg.payload = {\n    origin: {\n        'from': 'dashboard',\n        'id': 1\n    },\n    destination: {\n        'to': 'pumpUnit',\n        'id': 1\n    },\n    level: {\n        ms: 0,\n        cm: flow.get(\"newLevelC1\")\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 500,
+        "wires": [
+            [
+                "8a6af8313b3ec440",
+                "0d5826eee2c23bbc"
+            ]
+        ]
+    },
+    {
+        "id": "2064d347ed42f747",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Limit Setter",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1070,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "8a6af8313b3ec440",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Payload Builder",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "0d5826eee2c23bbc",
+        "type": "mqtt out",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "topic": "p/container/set",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "0a63f842855fd437",
+        "x": 1060,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "9b253848e101da78",
+        "type": "switch",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "property": "payload.origin.id",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "79aa39fd18f9e103",
+                "6f1b0b04cd53bbe2",
+                "d30b24edbce1a93e"
+            ],
+            [
+                "dde017762b8581a4",
+                "2136bdf75bbd4371",
+                "d30b24edbce1a93e"
+            ]
+        ]
+    },
+    {
+        "id": "79aa39fd18f9e103",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Container #1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.level.cm",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "dde017762b8581a4",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Container #2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.level.cm",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "2136bdf75bbd4371",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Grab Level",
+        "func": "msg.payload = msg.payload.level.cm;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 680,
+        "wires": [
+            [
+                "cafe6197fec29b27"
+            ]
+        ]
+    },
+    {
+        "id": "6f1b0b04cd53bbe2",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Grab Level",
+        "func": "msg.payload = msg.payload.level.cm;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [
+                "6ed19373ba6a3d8b"
+            ]
+        ]
+    },
+    {
+        "id": "eaa00901ba72d19a",
+        "type": "comment",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Monitor Levels",
+        "info": "",
+        "x": 140,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "fb4497d1063ef532",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug SQL DDL",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "aa47e498bc64dfc4",
+        "type": "inject",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Do",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1320,
+        "wires": [
+            [
+                "40ec3cbe8cb30c57"
+            ]
+        ]
+    },
+    {
+        "id": "f3ec98ef0ca4d7e8",
+        "type": "inject",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Do",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 1380,
+        "wires": [
+            [
+                "2d67918ddbb93779"
+            ]
+        ]
+    },
+    {
+        "id": "d30b24edbce1a93e",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Set Params",
+        "func": "let origin = msg.payload.origin['from']\n    + '/'\n    + msg.payload.origin.id;\n\nlet level_cm = msg.payload.level.cm;\n\nmsg.params = [origin, level_cm];\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 540,
+        "wires": [
+            [
+                "74dd5ac693381466",
+                "38d60e186e09c923"
+            ]
+        ]
+    },
+    {
+        "id": "6b4e82df1768093c",
+        "type": "comment",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Database Maintenance",
+        "info": "",
+        "x": 160,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "38d60e186e09c923",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Feed Line Chart",
+        "func": "msg.topic = msg.params[0];   // origin\nmsg.payload = msg.params[1]; // level (cm)\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 720,
+        "wires": [
+            [
+                "702d0a392878a987",
+                "bc0eb0f408d66a8e"
+            ]
+        ]
+    },
+    {
+        "id": "702d0a392878a987",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "b28115b6b2033a2c",
+        "type": "join",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "4f82e9a386da297c"
+            ]
+        ]
+    },
+    {
+        "id": "59e95ca45373c8c2",
+        "type": "debug",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Debug Fake Random Readings",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4f82e9a386da297c",
+        "type": "function",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Fake Random Reading",
+        "func": "let levelCm = msg.payload[0];\nlet originId = msg.payload[1];\n\nmsg.payload = {\n    \"origin\": {\n        \"from\": \"measureUnit\",\n        \"id\": originId\n    },\n    \"level\": {\n        \"ms\": 0,\n        \"cm\": levelCm\n    }\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 300,
+        "wires": [
+            [
+                "59e95ca45373c8c2"
+            ]
+        ]
+    },
+    {
+        "id": "8d0412206ed71004",
+        "type": "inject",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Clear Chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "x": 130,
+        "y": 760,
+        "wires": [
+            [
+                "bc0eb0f408d66a8e"
+            ]
+        ]
+    },
+    {
+        "id": "40ec3cbe8cb30c57",
+        "type": "postgresql",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Create Tables",
+        "query": "CREATE TABLE IF NOT EXISTS public.log_levels (\n    id          SERIAL PRIMARY KEY,\n\toccurrence  TIMESTAMP NOT NULL DEFAULT now(),\n\torigin      VARCHAR(50) NOT NULL,\n\tlevel_cm    INT4 NOT NULL DEFAULT 0\n);\n\nCREATE TABLE IF NOT EXISTS public.log_pumps (\n    id          SERIAL PRIMARY KEY,\n    occurrence  TIMESTAMP NOT NULL DEFAULT now(),\n    origin      VARCHAR(50) NOT NULL,\n    destination VARCHAR(50) NOT NULL,\n    duration    INT4 NOT NULL DEFAULT 0\n);\n",
+        "postgreSQLConfig": "8e7b4441425d8aad",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 280,
+        "y": 1320,
+        "wires": [
+            [
+                "fb4497d1063ef532"
+            ]
+        ]
+    },
+    {
+        "id": "2d67918ddbb93779",
+        "type": "postgresql",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Drop Tables",
+        "query": "DROP TABLE IF EXISTS public.log_levels;\nDROP TABLE IF EXISTS public.log_pumps;",
+        "postgreSQLConfig": "8e7b4441425d8aad",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 270,
+        "y": 1380,
+        "wires": [
+            [
+                "fb4497d1063ef532"
+            ]
+        ]
+    },
+    {
+        "id": "74dd5ac693381466",
+        "type": "postgresql",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Log Level",
+        "query": "INSERT INTO log_levels (\n    origin, \n    level_cm\n) VALUES ($1, $2);",
+        "postgreSQLConfig": "8e7b4441425d8aad",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 300,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2eec174cfc80476",
+        "type": "postgresql",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Query Levels Recent Values",
+        "query": "SELECT * \nFROM log_levels\nORDER BY id DESC\nLIMIT 5;",
+        "postgreSQLConfig": "8e7b4441425d8aad",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 420,
+        "y": 1080,
+        "wires": [
+            [
+                "45a4eee8d9cbed04"
+            ]
+        ]
+    },
+    {
+        "id": "0d9bab09f8f647d6",
+        "type": "ui_button",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "63319dad540d36ae",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Escoar",
+        "tooltip": "Aciona manualmente uma Unidade de Escoamento",
+        "color": "#fafafa",
+        "bgcolor": "#f44336",
+        "className": "",
+        "icon": "reply",
+        "payload": "{\"origin\":{\"from\":\"dashboard\",\"id\":1},\"destination\":{\"to\":\"pumpUnit\",\"id\":1},\"pump\":{\"seconds\":2}}",
+        "payloadType": "json",
+        "topic": "p/pump",
+        "topicType": "str",
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "7d3803cc62a81852",
+                "03ba3e6d474f52bf"
+            ]
+        ]
+    },
+    {
+        "id": "b57c95771e5bc123",
+        "type": "ui_button",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "63319dad540d36ae",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ajustar",
+        "tooltip": "",
+        "color": "#fafafa",
+        "bgcolor": "#4caf50",
+        "className": "",
+        "icon": "play_for_work",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 600,
+        "y": 440,
+        "wires": [
+            [
+                "6de6150cd4556d3b"
+            ]
+        ]
+    },
+    {
+        "id": "748fe03e0f73a828",
+        "type": "ui_button",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "1da5e211e9821607",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Escoar",
+        "tooltip": "Aciona manualmente uma Unidade de Escoamento",
+        "color": "#fafafa",
+        "bgcolor": "#f44336",
+        "className": "",
+        "icon": "reply",
+        "payload": "{\"origin\":{\"from\":\"dashboard\",\"id\":1},\"destination\":{\"to\":\"pumpUnit\",\"id\":2},\"pump\":{\"seconds\":2}}",
+        "payloadType": "json",
+        "topic": "p/pump",
+        "topicType": "str",
+        "x": 600,
+        "y": 780,
+        "wires": [
+            [
+                "44527b447e614c91",
+                "a43fa6ada4db85b7"
+            ]
+        ]
+    },
+    {
+        "id": "bcb9895916615180",
+        "type": "ui_button",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "1da5e211e9821607",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ajustar",
+        "tooltip": "",
+        "color": "#fafafa",
+        "bgcolor": "#4caf50",
+        "className": "",
+        "icon": "play_for_work",
+        "payload": "newLevel",
+        "payloadType": "flow",
+        "topic": "",
+        "topicType": "str",
+        "x": 600,
+        "y": 860,
+        "wires": [
+            [
+                "ff67ce55ce27d4fe"
+            ]
+        ]
+    },
+    {
+        "id": "1a3f71df6af4069c",
+        "type": "ui_slider",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "label": "Limite",
+        "tooltip": "Define a distância limite a partir da qual será comandado o escoamento para o contêiner selecionado",
+        "group": "63319dad540d36ae",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "topicType": "str",
+        "min": "1",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 590,
+        "y": 400,
+        "wires": [
+            [
+                "7e7609c914a280f3"
+            ]
+        ]
+    },
+    {
+        "id": "2df96aee3aca784f",
+        "type": "ui_slider",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "label": "Limite",
+        "tooltip": "Define a distância limite a partir da qual será comandado o escoamento para o contêiner selecionado",
+        "group": "1da5e211e9821607",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "",
+        "topicType": "str",
+        "min": "1",
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 590,
+        "y": 820,
+        "wires": [
+            [
+                "addf13630a82b6b4"
+            ]
+        ]
+    },
+    {
+        "id": "cb0bf273b46d75c0",
+        "type": "ui_text",
+        "z": "a5f5fa2877f55e9a",
+        "group": "eb1e21ef6ceb29c3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Leitura dos Níveis",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 150,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "6ed19373ba6a3d8b",
+        "type": "ui_gauge",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "63319dad540d36ae",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Nível",
+        "label": "cm",
+        "format": "{{value}}",
+        "min": "1",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "cafe6197fec29b27",
+        "type": "ui_gauge",
+        "z": "a5f5fa2877f55e9a",
+        "name": "",
+        "group": "1da5e211e9821607",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Nível",
+        "label": "cm",
+        "format": "{{value}}",
+        "min": "1",
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 590,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "bc0eb0f408d66a8e",
+        "type": "ui_chart",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Line Chart Full Data",
+        "group": "eb1e21ef6ceb29c3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Níveis por Unidade de Medição",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "step",
+        "nodata": "",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "200",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 380,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "271fa56fbcfc5394",
+        "type": "random",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Random Level Generator",
+        "low": "1",
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "b28115b6b2033a2c"
+            ]
+        ]
+    },
+    {
+        "id": "4b1524aa9b49b8f1",
+        "type": "random",
+        "z": "a5f5fa2877f55e9a",
+        "name": "Random Container",
+        "low": 1,
+        "high": "2",
+        "inte": "true",
+        "property": "payload",
+        "x": 290,
+        "y": 100,
+        "wires": [
+            [
+                "b28115b6b2033a2c"
+            ]
+        ]
+    },
+    {
+        "id": "382865f14d52fd42",
+        "type": "ui_table",
+        "z": "a5f5fa2877f55e9a",
+        "group": "eb1e21ef6ceb29c3",
+        "name": "Level Log Data Table",
+        "order": 2,
+        "width": "6",
+        "height": 5,
+        "columns": [
+            {
+                "field": "occurrence",
+                "title": "Ocorrência",
+                "width": "200",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "origin",
+                "title": "Origem",
+                "width": "140",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "level_cm",
+                "title": "Nível (cm)",
+                "width": "100",
+                "align": "right",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 680,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "0a63f842855fd437",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "10.0.0.107",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8e7b4441425d8aad",
+        "type": "postgreSQLConfig",
+        "name": "PostgresSQL @ Dockerized Local",
+        "host": "10.0.0.107",
+        "hostFieldType": "str",
+        "port": "5435",
+        "portFieldType": "num",
+        "database": "containers",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "postgres",
+        "userFieldType": "str",
+        "password": "w#107d3v1c35",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "63319dad540d36ae",
+        "type": "ui_group",
+        "name": "Contêiner #1",
+        "tab": "8084dfcae539c483",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1da5e211e9821607",
+        "type": "ui_group",
+        "name": "Contêiner #2",
+        "tab": "8084dfcae539c483",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "eb1e21ef6ceb29c3",
+        "type": "ui_group",
+        "name": "Logs",
+        "tab": "8084dfcae539c483",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8084dfcae539c483",
+        "type": "ui_tab",
+        "name": "Projeto",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]

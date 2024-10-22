@@ -142,8 +142,7 @@ fornecer um [painel de monitoramento e comando](http://ec2-18-188-46-54.us-east-
 
 ![Captura das telas do dashboard](/Imagens/dashboard-mobile.png)
 
-O fluxo (_flow_) Node-RED implementado pode ser obtido [neste gist](https://gist.github.com/danielgoncalves/37da72b88d048bcf2101a32f4e1452c7), 
-cuja representação na interface da plataforma se parece com a captura de tela:
+O fluxo Node-RED implementado está disponível neste repositório em `Infra/Node-RED/flow.json`. O fluxo originalmente implementado, conforme trabalhos anteriores continua disponível [neste gist](https://gist.github.com/danielgoncalves/37da72b88d048bcf2101a32f4e1452c7), cuja representação na interface da plataforma se parece com a captura de tela:
 
 ![Captura de tela do flow do projeto](/Imagens/nodered-main-flow.png)
 
