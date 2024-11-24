@@ -58,7 +58,7 @@ $ docker run \
     -p 1883:1883 \
     -p 9001:9001 \
     -v /mosquitto:/mosquitto \
-    -d eclipse-mosquitto
+    -d eclipse-mosquitto:2.0.20
 ```
 
 ---
@@ -85,7 +85,7 @@ $ docker run \
     -p 5432:5432 \
     -v iot-postgres-data:/var/lib/postgresql/data \
     -e "POSTGRES_PASSWORD=SUPERSECRETA" \
-    -d postgres:latest
+    -d postgres:12-alpine
 ```
 
 >[!info] Senha
@@ -94,8 +94,8 @@ $ docker run \
 ### Configuração e criação do banco de dados
 
 * Acesse o container: `$ docker exec -it iot-postgres-server /bin/bash`
-* Edite: `# vi /var/log/postgresql/data/pg_hba.conf`
-* Inclua as linhas:
+* Edite: `# vi /var/lib/postgresql/data/pg_hba.conf`
+* Inclua as linhas (no **vi** é preciso entrar em modo edição pressionando a tecla `I`):
 
 ```plaintext
 # IPv4 local connections
@@ -105,9 +105,19 @@ host    all    all    172.17.0.0/24   md5  # rede Docker
 host    all    all    172.18.0.0/24   md5  # rede Docker bridge (verifique via ifconfig)
 ```
 
-* Crie o banco de dados `containers`:
+* Saia do modo de edição pressionando a tecla `ESC`;
+* Digite `:wq` e pressione `ENTER` para salvar (write) e sair (quit) do editor;
+* Saia do container e o reinicie:
+
+```
+# exit
+$ docker restart iot-postgres-server
+```
+
+* Acesse o container novamente e crie o banco de dados chamado `containers`:
  
 ```
+$ docker exec -it iot-postgres-server
 # su - postgres
 # createdb containers
 ```
@@ -151,7 +161,7 @@ $ docker run \
     --name=iot-nodered-webapp \
     -p 1880:1880 \
     -v /nodered/data:/data \
-    -d nodered/node-red
+    -d nodered/node-red:4.0.5
 ```
 
 * Configure autenticação por senha:
@@ -180,7 +190,7 @@ $ vim /nodered/data/settings.js
 * Para criar um hash de uma senha:
 
 ```shell
-$ docker exec -it nodered-webapp /bin/bash
+$ docker exec -it iot-nodered-webapp /bin/bash
 
 # no container
 $ node-red admin hash-pw
@@ -193,7 +203,7 @@ Copie `HASHED-PASSWORD` e cole em `/nodered/data/settings.js` em `adminAuth/type
 ---
 ## Reiniciação necessária
 
-Após as mudanças de configurações feitas no PostgreSQL e de acesso na aplicação Node-RED, é necessário reiniciar estes serviços para que as mudanças tenham efeito:
+Após as mudanças de configurações feitas no PostgreSQL e de acesso na aplicação Node-RED, é necessário reiniciar estes serviços para que as mudanças tenham efeito (se estiver seguindo este roteiro, lembrará que já reiniciamos o container do PostgreSQL, mas não haverá problema reiniciá-lo mais uma vez, embora seja opcional):
 
 ```shell
 $ docker restart iot-postgres-server
