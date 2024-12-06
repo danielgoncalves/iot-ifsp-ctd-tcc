@@ -70,13 +70,27 @@ static const char* MQTT_TOPIC_SUB_LEVEL = "p/container/level";
 static const char* MQTT_TOPIC_PUB_SET = "p/container/set";
 static const char* MQTT_TOPIC_PUB_PUMP = "p/pump";
 
-static const int PUMP_SECONDS = 2;
+static const int PUMP_SECONDS = 2;  // (Veja nota #1)
+static const int PUMP_SECONDS_MIN = 1;
+static const int PUMP_SECONDS_MAX = 9;
+static const int SET_BUTTON_BY_DEFSEG = 1;
+// Ajuste SET_BUTTON_BY_DEFSEG = 0 para que BUTTON_LEVEL_ID
+// marque o nível do container a partir da leitura atual do 
+// container selecionado ao pressionar BUTTON_DRAIN.
+//
+// Ajuste SET_BUTTON_BY_DEFSEG = 1 para que BUTTON_LEVEL_ID
+// modifique o número de segundos que o contêiner selecionado
+// será acionado ao pressionar BUTTON_DRAIN.
+//
+// Nota #1: Ignorado se SET_BUTTON_BY_DEFSEG = 1
+
 
 unsigned int selectedContainer = 1;
 unsigned int container1_ms = -1;
 unsigned int container1_cm = -1;
 unsigned int container2_ms = -1;
 unsigned int container2_cm = -1;
+unsigned int pumpSeconds = PUMP_SECONDS_MIN;
 
 WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
@@ -107,7 +121,12 @@ static void buttonHandler(uint8_t buttonId, uint8_t buttonState) {
     } 
     else if (buttonId == BUTTON_LEVEL_ID) {
       Serial.println("Button LEVEL pressed");
-      doSetLevelForContainer();
+      if (0 == SET_BUTTON_BY_DEFSEG) {
+        doSetLevelForContainer();
+      } 
+      else if (1 == SET_BUTTON_BY_DEFSEG) {
+        doSetPumpSeconds();
+      }
     } 
     else if (buttonId == BUTTON_DRAIN_ID) {
       Serial.println("Button DRAIN pressed");
@@ -269,6 +288,15 @@ static void doSelectNextContainer() {
 }
 
 
+static void doSetPumpSeconds() {
+  pumpSeconds++;
+  if (pumpSeconds > PUMP_SECONDS_MAX) {
+    pumpSeconds = PUMP_SECONDS_MIN;
+  }
+  presentPumpSeconds();
+}
+
+
 static void doSetLevelForContainer() {
   unsigned int ms = selectedContainer == 1 ? container1_ms : container2_ms;
   unsigned int cm = selectedContainer == 1 ? container1_cm : container2_cm;
@@ -349,7 +377,7 @@ static void doPumpContainer() {
   dest["id"] = selectedContainer;
 
   JsonObject pump = doc.createNestedObject("pump");
-  pump["seconds"] = PUMP_SECONDS;
+  pump["seconds"] = (0 == SET_BUTTON_BY_DEFSEG) ? PUMP_SECONDS : pumpSeconds;
 
   String output = "";
   serializeJson(doc, output);  // DEBUG: serializeJsonPretty(doc, Serial);
@@ -451,6 +479,7 @@ static void presentValues() {
   }
 
   presentSelection();
+  presentPumpSeconds();
 }
 
 
@@ -459,6 +488,14 @@ static void presentSelection() {
   lcd.print(selectedContainer == 1 ? ">" : " ");
   lcd.setCursor(7, 0);
   lcd.print(selectedContainer == 2 ? ">" : " ");
+}
+
+
+static void presentPumpSeconds() {
+  lcd.setCursor(13, 0);
+  lcd.print("T=");
+  lcd.setCursor(15, 0);
+  lcd.print(pumpSeconds);
 }
 
 
