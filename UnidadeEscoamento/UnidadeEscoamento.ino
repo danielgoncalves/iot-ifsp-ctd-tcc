@@ -31,7 +31,7 @@
 #include <ArduinoJson.h>
 
 // Para evitar o acionamento da bomba em plataformas de simulação
-#define SIMULATED_ENVIRONMENT
+// #define SIMULATED_ENVIRONMENT
 
 // Id da bomba deve ser o mesmo do respectivo contêiner
 // (eg. SONAR_ID da Unidade de Medição)
@@ -148,7 +148,7 @@ static void blinkOnboardLED() {
 
 
 static void pullData() {
-  Serial.println("pulling data...");
+  // Serial.println("pulling data...");
   if (!mqttClient.connected()) {
     connectMqttClient();
   }
@@ -160,11 +160,15 @@ static void doPump(unsigned int duration) {
   unsigned long t0 = millis();
   unsigned long t1 = t0 + duration;
   
-  Serial.print("Pumping (");
+  Serial.print("Pumping (duration: ");
   Serial.print(duration);
-  Serial.print("ms): ");
+  Serial.println("ms)");
+  // Serial.print("Pumping (");
+  // Serial.print(duration);
+  // Serial.print("ms): ");
 
   #ifndef SIMULATED_ENVIRONMENT
+    Serial.println("LOAD set to HIGH");
     digitalWrite(PUMP_PIN, HIGH);
   #endif
   digitalWrite(PUMPING_LED_PIN, HIGH);
@@ -173,12 +177,15 @@ static void doPump(unsigned int duration) {
     Serial.print(".");
   }
 
+  Serial.println("");
+  
   #ifndef SIMULATED_ENVIRONMENT
+    Serial.println("LOAD set to LOW");
     digitalWrite(PUMP_PIN, LOW);
   #endif
   digitalWrite(PUMPING_LED_PIN, LOW);
 
-  Serial.println(" done");
+  Serial.println("Pumping done!");
 }
 
 
