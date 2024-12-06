@@ -1,0 +1,12 @@
+\newpage
+\thispagestyle{empty}
+\begin{resumo}[Abstract]
+\begin{otherlanguage*}{english}
+\begin{SingleSpace}
+This work implements a solution for measuring fluid levels in containers for monitoring purposes, with the ability to react to the collected data by automatically controlling the draining or filling of the contents. Thus, the scope of this work is related to monitoring containers that need to be filled to maintain a minimum level or that need to be drained to avoid exceeding a maximum level. The solutions for similar problems that we encountered use a monolithic approach, causing the parts responsible for measurement, monitoring, and draining or filling to form a single, inseparable block. In this project, we use the concept of separating and specializing the parts, so they can be physically distant from each other while still fulfilling their functions and communicating through the available internet infrastructure, if any. As a result, we were able to validate the proposal of separating the solution into independent and capable units through NodeMCU microcontrollers based on the ESP32, along with other components such as sensors and actuators that are quite simple and widely available. Although Expressif Systems, the manufacturer of the ESP32 platforms used, indicates their use for industrial environments, the other components utilized in the implementation have a much more educational purpose and may not be recommended for production use, especially in environments with aggressive humidity and temperature conditions. Nevertheless, it was possible to verify the feasibility of the solution, particularly in its integration with widely used software solutions in the industry, such as database servers and message queuing systems for telemetry.
+\end{SingleSpace}
+
+\vspace{\onelineskip}
+   \textbf{Keywords}: IoT, Internet of Things, ESP32, Monitoring, Water Pump, JT100, HC-SR04, Fluid, Container, WiFi, Docker, Node-RED, MQTT, Mosquitto MQTT Broker
+ \end{otherlanguage*}
+\end{resumo}

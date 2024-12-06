@@ -1,0 +1,10 @@
+\newpage
+\thispagestyle{empty}
+\begin{resumo}
+\begin{SingleSpace}
+Este trabalho implementa uma solução para medição do nível de fluidos em contêineres para monitoramento, com capacidade para reagir aos dados coletados, comandando de forma automatizada, o escoamento ou completamento do conteúdo. Dessa forma, o domínio deste trabalho está relacionado ao monitoramento de contêineres cujo conteúdo precise ser completado para manter um nível mínimo ou que precise ser escoado para evitar que ultrapasse um nível máximo. As soluções para problemas similares que encontramos utilizam uma abordagem monolítica, fazendo com que as partes responsáveis pela medição, monitoramento e escoamento ou completamento formem um único bloco indissociável. Neste projeto usamos o conceito de separar e especializar as partes, de modo que elas possam estar fisicamente distantes entre si e, ainda assim, cumprirem suas funções e se comunicarem através da infraestrutura de internet disponível, se houver. Como resultado, conseguimos validar a proposta de separar as partes da solução em unidades independentes e capazes através de microcontroladores NodeMCU, baseados no ESP32, além de outros componentes, como sensores e atuadores, bastante simples e amplamente disponíveis. Embora a Expressif Systems, fabricante das plataformas ESP32 utilizadas, indique seu uso para ambientes industriais, os demais os componentes utilizados na implementação tem um propósito muito mais didático, e podem não ser recomendados para uso em produção, principalmente em ambientes com condições agressivas de umidade e temperatura. Entretanto, foi possível verificar a viabilidade da solução, principalmente na integração com soluções de software amplamente utilizadas na indústria, como servidores de bancos de dados e de enfileiramento de mensagens para telemetria.
+
+\end{SingleSpace}
+\vspace{\onelineskip}
+\textbf{Palavras-chave}: IoT, Internet das Coisas, ESP32, Monitoramento, Bomba D'água, JT100, HC-SR04, Fluído, Contêiner, WiFi, Docker, Node-RED, MQTT, Mosquitto MQTT Broker
+\end{resumo}

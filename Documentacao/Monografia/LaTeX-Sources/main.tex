@@ -1,0 +1,61 @@
+\documentclass [article, 12pt, a4paper, oneside, section=TITLE]{abntex2}
+
+
+\input{formatacao}
+
+\begin{document}
+
+%===================================CAPA====================================
+
+\input{elementos-pretextuais/capa}
+
+%=============================CONTRACAPA====================================
+
+\input{elementos-pretextuais/contracapa}
+
+%=============================DEDICATÓRIA===================================
+
+\input{elementos-pretextuais/dedicatoria}
+
+%==============================RESUMO=======================================
+
+\input{elementos-pretextuais/resumo}
+
+%============================ABSTRACT=======================================
+
+\input{elementos-pretextuais/abstract}
+
+%=============================SUMÁRIO=======================================
+
+\input{elementos-pretextuais/sumario}
+
+%=============================ELEMENTOS TEXTUAIS============================
+\newpage
+\pagestyle{plain}
+\pagenumbering{arabic}
+%\textual
+
+\input{elementos-texto/introdução}
+
+% ===== Fundamentação Teórica =====
+\newpage
+\input{elementos-texto/capitulo2}
+
+% ===== Trabalhos Correlatos =====
+\newpage
+\input{elementos-texto/capitulo3}
+
+% ===== Desenvolvimento =====
+\newpage
+\input{elementos-texto/capitulo4}
+
+% ===== Conclusão =====
+\newpage
+\input{elementos-texto/capitulo5}
+
+%==============================BIBLIOGRAFIA=================================
+\newpage
+\renewcommand{\bibname}{REFERÊNCIAS}
+\bibliography{bibliography}
+
+\end{document}

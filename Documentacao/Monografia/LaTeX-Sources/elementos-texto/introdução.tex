@@ -1,0 +1,19 @@
+\section{Introdução}
+
+A Internet das Coisas é reconhecida como uma das mais importantes áreas de tecnologia futura e vem obtendo muita atenção de uma grande parte das indústrias \cite{lee2015internet}. Também chamada de Internet de Tudo ou Internet Industrial, trata-se de um paradigma tecnológico imaginado como uma rede global de máquinas e dispositivos capazes de interagirem entre si \cite{lee2015internet} de forma automática e sem nenhuma ou praticamente nenhuma interação humana \cite{li2006state}.
+
+Com o objetivo de eliminar vazamentos nos reservatórios de fluidos e reduzir o desperdício gerado por esses vazamentos, a implementação de dispositivos que monitoram o consumo e os níveis de fluidos tornou-se uma solução fundamental, contribuindo tanto para a diminuição do desperdício quanto para a preservação desses recursos \cite{gurgel2021sistema}.
+
+A medição de níveis de líquidos ou fluidos é uma demanda comum na indústria e até mesmo em residências \cite{gonccalves2019controle}, embora a natureza distribuída aqui proposta seja a possibilidade de alta escalabilidade, muito mais condizente com as necessidades da indústria \cite{tairaprototipagem}.
+
+Portanto, foi desenvolvido um protótipo criando uma rede de unidades de dispositivos, com responsabilidades bem definidas, capazes de monitorar, mensurar e comandar o escoamento de contêineres de fluidos de qualquer natureza de forma automática e distribuída, com capacidade de escalar para qualquer número de contêineres monitorados e que possam estar exatamente ao lado um do outro ou muito distantes, a depender da infraestrutura de comunicação em uso.
+
+\subsection{Objetivo}
+O objetivo é implementar unidades distintas, utilizando componentes comuns, amplamente disponíveis e acessíveis, utilizando uma infraestrutura moderna de software e plataformas de código aberto que viabilizem a interação entre as unidades, considerando que possam ser adicionados um número virtualmente ilimitado de pares de unidades de medição e escoamento.
+
+\subsubsection{Objetivos Específicos}
+\begin{itemize}
+    \item Avaliar as dificuldades de comunicação entre dispositivos capazes de publicar e receber dados de mensagens de telemetria, MQTT e de registro das medições (\textit{logging}).
+    \item Arquitetar uma solução de alta coesão e baixo acoplamento permitindo a expansão da solução para um número virtualmente ilimitado de pares de unidades de medição e escoamento.
+
+\end{itemize}

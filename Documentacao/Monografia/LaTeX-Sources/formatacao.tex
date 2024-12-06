@@ -1,0 +1,72 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english, main=brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,textcomp}
+\usepackage{color}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{listings}         % Para as linguagens de programação
+\usepackage{lastpage}		  % Usado pela Ficha catalográfica
+\usepackage{indentfirst}	  % Indenta o primeiro parágrafo de cada seção.
+\usepackage{hhline}
+\usepackage{hyperref}
+\usepackage[pdftex]{graphicx}
+\graphicspath{ {./figuras/} }
+
+
+% retira as mensagens de aviso do pacote Glossaries
+\let\printglossary\relax
+\let\theglossary\relax
+\let\endtheglossary\relax
+% coloca Seções em maiúsculas sem negrito no Sumário
+\makeatletter
+\let\oldcontentsline\contentsline
+\def\contentsline#1#2{%
+  \expandafter\ifx\csname l@#1\endcsname\l@section
+    \expandafter\@firstoftwo
+  \else
+    \expandafter\@secondoftwo
+  \fi
+  {%
+    \oldcontentsline{#1}{\normalfont\MakeTextUppercase{#2}}%
+  }{%
+    \oldcontentsline{#1}{#2}%
+  }%
+}
+\makeatother
+% ---
+% Pacotes glossaries
+% ---
+\usepackage[subentrycounter,seeautonumberlist,nonumberlist=true]{glossaries}
+% para usar o xindy ao invés do makeindex:
+%\usepackage[xindy={language=portuguese},subentrycounter,seeautonumberlist,nonumberlist=true]{glossaries}
+% ---
+% Citações de referências no formato alfabético e negrito
+\usepackage[alf, abnt-emphasize=bf]{abntex2cite} 
+% Margens definidas em 25 mm para uso como documento em PDF
+% Para imprimir use as seguintes margens:
+% \usepackage[left=30mm, top=30mm, right=20 mm, bottom=20mm] {geometry}
+
+\usepackage[margin=25 mm]{geometry}
+%---
+% O arquivo com o nome dos alunos e dos orientadores é lido aqui.
+% Atualizar diretamente no arquivo
+%---
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Corrige a fonte dos capítulos, seções, resumos, etc.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\ABNTEXchapterfont}{\bfseries \rmfamily}  % Capítulos em Bold e Maiúsculas
+\renewcommand{\ABNTEXchapterfontsize}{\normalsize}
+\renewcommand{\ABNTEXsectionfont}{\rmfamily}            %  Seções em  Maiúsculas apenas
+\renewcommand{\ABNTEXsectionfontsize}{\normalsize}
+\renewcommand{\ABNTEXsubsectionfont}{\bfseries}         % Subseções em Bold apenas
+\renewcommand{\ABNTEXsubsectionfontsize}{\normalsize}
+\renewcommand{\lstlistingname}{Código}                  % Nome para os códigos no texto
+\renewcommand{\lstlistlistingname}{Lista de \lstlistingname s}
+\makeatletter                                          % Configura a linha da lista de códigos
+\renewcommand\l@lstlisting[2]{{\normalfont\@dottedtocline{1}{1.5em}{2em}{Código~#1}{#2}}}
+\makeatother
+\usepackage{url16023}  % para retirar < e > da URL nas referências.
