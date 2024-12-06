@@ -37,7 +37,7 @@ static const int SONAR_ID = 1;
 static const int SONAR_TRIGGER_PIN = 18;
 static const int SONAR_ECHO_PIN = 19;
 static const int SONAR_MAX_DISTANCE_CM = 200;  // 200cm = 2m
-static const int SONAR_READ_INTERVAL = 2000;  // Intervalo entre leituras, em milisegundos
+static const int SONAR_READ_INTERVAL = 500;  // Intervalo entre leituras, em milisegundos
 
 static const int BLINK_INTERVAL = 500;  // Intervalo de piscagem para o LED onboard
 
@@ -50,10 +50,58 @@ static const char* MQTT_TOPIC_SUB_SET = "p/container/set";
 static const char* MQTT_TOPIC_PUB_LEVEL = "p/container/level";
 static const char* MQTT_TOPIC_PUB_PUMP = "p/pump";
 
-static const int PUMP_SECONDS = 2;
+static const int PUMP_SECONDS = 6;
 
-unsigned int criticalLevel_ms = 455;  // Nível crítico padrão: 455ms
-unsigned int criticalLevel_cm = 7;  // Nível crítico padrão (em centímetros): 7cm
+unsigned int criticalLevel_ms = 278;  // (milisegundos) 278ms = ~4cm
+unsigned int criticalLevel_cm = 4;    // (centimetros) 4cm = ~278ms
+/*
+## Contêiner
+
+Usados no protótipo aquários para peixes beta. São conhecidos os 
+seguintes dados:
+
+* 130mm altura total do recipiente
+* 3mm espessura do vidro
+* 100x100mm (medida externa)
+* 94x94mm (medida interna)
+* 1mm de água nesse recipiente, equivale a 8,85ml
+
+No protótipo a ideia é manter a borda do sensor HC-SR04 a 147mm de
+altura em relação à base em que está instalado.
+
+Com o contêiner (aquario) sobre a base, configurar a unidade medição
+para identificar quanto o topo do fluído atingir a marca de 100mm ou
+mais e, assim, comandar o escoamento do contêiner pelo tempo `t` 
+suficiente para baixar o nível do fluído para 80mm em relação ao 
+fundo do recipiente.
+
+Sendo a diferença de 20mm (do limite máximo de 100mm, ao limite de 
+"normalidade" de 80mm). A unidade de medição deverá comandar o 
+escoamento por 5,97 segundos para escoar o equivalente a 177ml,
+assumindo que a bomba d'água será acionada com 4V~5V.
+
+* `8,85ml × 20mm = 177ml`
+* `177ml ÷ 29,6 ml/s = 5,97 s`
+
+Ou seja, a bomba tem que ficar acionada por cerca ~6 segundos para que
+seja escoado o equivalente a 20mm de água em um recipiente de 94x94mm.
+
+## Valores de Medição
+
+Se a borda do emissor do HC-SR04 ficar posicionada a 147mm em relação à 
+base em que está instalada e, sabendo que o nível zero do recipiente 
+está 3mm acima da base mesma base, o limite de acionamento deverá ser:
+
+* `criticalLevel_cm = ((147 - 3) - 100) ÷ 10`
+* `criticalLevel_cm = (144 - 100) ÷ 10`
+* `criticalLevel_cm = 4,4`
+
+Na verdade, `criticalLevel_cm` deverá ser igual `4` pois a biblioteca
+NewPing não retorna valores em ponto flutuante, apenas inteiros.
+
+Porém nas medições práticas, 
+
+*/
 
 WiFiClient wifiClient;
 PubSubClient mqttClient(wifiClient);
@@ -61,6 +109,7 @@ PubSubClient mqttClient(wifiClient);
 bool onboardLEDState = false;
 Neotimer onboardLEDTimer = Neotimer();
 Neotimer sonarTimer = Neotimer();
+Neotimer pumpTimer = Neotimer();
 
 NewPing sonar(
   SONAR_TRIGGER_PIN, 
@@ -149,6 +198,11 @@ static void setupTimers() {
   // indicação de operação do LED onboard
   sonarTimer.set(SONAR_READ_INTERVAL);
   onboardLEDTimer.set(BLINK_INTERVAL);
+
+  // ajusta o timer que indica que o bombeamento foi comandado,
+  // desligando-o em seguida
+  pumpTimer.set((PUMP_SECONDS + 1) * 1000);
+  pumpTimer.stop();
 }
 
 
@@ -238,6 +292,18 @@ static void doCheckLevel(unsigned int dist_ms, unsigned int dist_cm) {
 
 
 static void doCommandPump() {
+  Serial.print("pumpTimer: waiting=");
+  Serial.print(pumpTimer.waiting());
+  Serial.print(", started=");
+  Serial.print(pumpTimer.started());
+  Serial.print(", done=");
+  Serial.println(pumpTimer.done());
+
+  if (pumpTimer.waiting() && !pumpTimer.done()) {
+    Serial.println("Still pumping...");
+    return;
+  }
+
   // para calcular o tamanho do buffer necessário:
   // https://arduinojson.org/v6/example/generator/
   StaticJsonDocument<128> doc;
@@ -273,6 +339,8 @@ static void doCommandPump() {
   String output = "";
   serializeJson(doc, output);  // DEBUG: serializeJsonPretty(doc, Serial);
   mqttClient.publish(MQTT_TOPIC_PUB_PUMP, output.c_str());
+
+  pumpTimer.start();
 }
 
 
